@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리뷰페이지</title>
+    <link rel="stylesheet" href="css/css2.css">
+</head>
+<body>
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>리뷰페이지</strong>
+            <p>내가 먹은 약의 효능 효과가 어땠는지, 이러한 약이 더 좋았다 등 자유롭게 환우분들의 약을 소개해주세요.</p>
+        </div>
+        <div class="board_view_wrap">
+            <div class="board_view">
+                <div class="title">
+                    글 제목
+                </div>
+                <div class="info">
+                    <dl>
+                        <dt>번호</dt>
+                        <dd>1</dd>
+                    </dl>
+                    <dl>
+                        <dt>ID</dt>
+                        <dd>임의ID</dd>
+                    </dl>
+                    <dl>
+                        <dt>작성일</dt>
+                        <dd><div>
+                            <script>
+                            date = new Date().toLocaleDateString();
+                            document.write(date);
+                            </script>
+                            </div></dd>
+                    </dl>
+                    <dl>
+                        <dt>조회</dt>
+                        <dd>2</dd> <!--<a>조회숫자 올라가게 </a>-->
+                    </dl>
+                </div>
+                <div class="cont">
+                    이러쿵 저러쿵<br>
+                    내용이 들어가는 곳<br>
+                    어쩌고 저쩌고
+                </div>
+            </div>
+            <div class="bt_wrap">
+                <a href="list.html" class="on">목록</a>
+                <a href="edit.html">수정</a>
+                <!-- 컨트롤 슬래쉬 코멘트 필기쓸때.... 자꾸 까먹네.. -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
